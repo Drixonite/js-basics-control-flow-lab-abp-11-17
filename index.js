@@ -2,7 +2,7 @@
 function scuberGreetingForFeet(number) {
   if (number <= 400) {
     return "This one is on me!"
-  }  
+  }
   else if (number > 2500) {
     return "No can do."
   }
@@ -30,7 +30,7 @@ function switchOnCharmFromTip(tip) {
   else if (tip !== "generous" || "not so generous") {
     return "Thank you."
   }
-  else (tip) {
+  else {
     return "Bye."
   }
 }
