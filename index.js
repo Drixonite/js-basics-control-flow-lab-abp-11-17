@@ -1,7 +1,7 @@
 // Write your code in this file!
 function scuberGreetingForFeet(number) {
   if (number <= 400) {
-    return "This one's on me!"
+    return "This one is on me!"
   }
   else if (number > 2000) {
     return "I will gladly take your thirty bucks."
@@ -15,7 +15,7 @@ function ternaryCheckCity(city) {
   if (city === "NYC") {
     return "Ok, sounds good."
   }
-  else if (city !== "Pittsburgh") {
+  else if (city !== "NYC") {
     return "No go."
   }
 }
