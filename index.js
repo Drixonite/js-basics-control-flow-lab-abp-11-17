@@ -19,10 +19,6 @@ function ternaryCheckCity(city) {
   else if (city !== "Pittsburgh") {
     return "No go."
   }
-  else {
-
-  }
-
 }
 
 function switchOnCharmFromTip() {
